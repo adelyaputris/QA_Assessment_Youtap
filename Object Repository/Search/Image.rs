@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Image</name>
+   <tag></tag>
+   <elementGuidId>1df37b0b-2d1a-47b4-9d6b-ba5d1d9b25f2</elementGuidId>
+   <imagePath>Image/Brokoli.jpg</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@class='image']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>Image/Brokoli.jpg</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+</WebElementEntity>
