@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('History/Icon'))
+WebUI.click(findTestObject('History/Menu_History'))
 
 WebUI.verifyElementText(findTestObject('History/History Page'), 'Daftar Transaksi')
 

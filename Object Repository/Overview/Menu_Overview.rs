@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Verify Text</name>
+   <name>Menu_Overview</name>
    <tag></tag>
-   <elementGuidId>f5d26964-eb25-40b0-8c08-200ef9f319d7</elementGuidId>
+   <elementGuidId>5cf8f016-de4d-4562-b437-e0599f347f34</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='headerName']</value>
+         <value>(//a[@class='list-menu'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

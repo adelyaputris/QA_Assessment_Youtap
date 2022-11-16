@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Icon</name>
+   <name>Verify Page</name>
    <tag></tag>
-   <elementGuidId>6885a3db-0b11-4053-8d63-773a76213ed0</elementGuidId>
+   <elementGuidId>c8137112-4db7-488a-8501-e1671d5f0731</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class='site-menu-title'])[5]</value>
+         <value>//span[@class='title']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Title</name>
+   <name>Menu_Upgrade</name>
    <tag></tag>
-   <elementGuidId>c8137112-4db7-488a-8501-e1671d5f0731</elementGuidId>
+   <elementGuidId>6885a3db-0b11-4053-8d63-773a76213ed0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='title']</value>
+         <value>(//span[@class='site-menu-title'])[5]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

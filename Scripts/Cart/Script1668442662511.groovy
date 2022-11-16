@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Keranjang/Cart'))
 
-WebUI.verifyElementText(findTestObject('Keranjang/Verify Text'), 'Keranjang')
+WebUI.verifyElementText(findTestObject('Keranjang/Verify Page'), 'Keranjang')
 

@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Keranjang/Cart'))
+WebUI.click(findTestObject('Upgrade Akun/Menu_Upgrade'))
 
-WebUI.verifyElementText(findTestObject('Keranjang/Verify Text'), 'Keranjang')
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyTextPresent('Upgrade Akunmu ke Do More Extra!', false)
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Upgrade Akun/Icon'))
+WebUI.click(findTestObject('Upgrade Akun/Menu_Upgrade'))
 
-WebUI.verifyElementText(findTestObject('Upgrade Akun/Title'), 'Upgrade Akunmu ke Do More Extra!')
+WebUI.verifyElementText(findTestObject('Upgrade Akun/Verify Page'), 'Upgrade Akunmu ke Do More Extra!')
 
